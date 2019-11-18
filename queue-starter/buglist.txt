@@ -1,1 +1,4 @@
 1. *~ in the clean part of the makefile causes an error; has been removed
+2. PeakFront looks to the back of the queue
+3. Dequeue removes from the back; should remove from front
+4. Queue destructor allows for memory leaks
