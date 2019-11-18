@@ -22,7 +22,12 @@ class Test
 	*/
 	//Node<T>* getNext() const;
 
-	//void testPeek(Queue myQueue);
+	void testEmpty();
+	void testEnqueue();
+	void testDequeue();
+	void testPeek();
+	void testDestructor();
+
 
 };
 
