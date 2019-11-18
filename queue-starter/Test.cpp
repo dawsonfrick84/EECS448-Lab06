@@ -1,3 +1,9 @@
+/*
+*	@file Test.cpp
+*	@author Dawson Frick
+*	@date 2019.11.11
+*/
+
 #include <iostream>
 #include <stdexcept>
 #include "Test.h"
@@ -5,7 +11,6 @@
 #include "Node.h"
 
 void Test::run(){
-//enqueue adds to the front of the list or dequeue removes from back and peekFront looks to back
   testEmpty();
   testEnqueue();
   testDequeue();
