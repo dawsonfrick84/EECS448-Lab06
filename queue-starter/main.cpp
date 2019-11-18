@@ -11,7 +11,6 @@
 
 int main()
 {
-	Queue q;
 	Test initiate;
 	initiate.run();
 	return(0);
